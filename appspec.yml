@@ -7,4 +7,5 @@ files:
     destination: /var/analysis_worker2/
 
 permissions:
-  - owner: ec2-user
+  - object: /var/analysis_worker
+    owner: ec2-user
