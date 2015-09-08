@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: /src/
+  - source: /
     destination: /var/analysis_worker/
 
