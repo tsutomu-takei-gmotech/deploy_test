@@ -1,6 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /src/
     destination: /var/analysis_worker/
+  - source: /src/
+    destination: /var/analysis_worker2/
 
+permissions:
+  - owner: ec2-user
